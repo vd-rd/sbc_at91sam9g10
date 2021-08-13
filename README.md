@@ -1,5 +1,7 @@
 # sbc_at91sam9g10
 
+Note: The project is created using Kicad 6 nightly builds and can't be opened using latest stable version.
+
 ### Features
  * CPU - AT91SAM9G10 processor (ARM926EJ @ 266MHz)
  * RAM - 1Gb SDRAM max ( 3V3 and 1V8 types supported)
