@@ -398,7 +398,7 @@
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.12,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -546,16 +546,16 @@
       "cpu"
     ],
     [
-      "a5b9e503-6aa4-424d-ab28-cc6f9f292730",
-      "ethernet"
-    ],
-    [
       "3c749ce7-d646-4de6-83a2-d6b8fc5e5df1",
       "io"
     ],
     [
       "607413c6-2bfd-476d-8323-587df958351b",
       "sdcard"
+    ],
+    [
+      "3124443c-047d-41df-933c-937c0c7e4ea1",
+      "lcd"
     ],
     [
       "a4217064-b1a8-49a5-9086-5c3293a5a5a6",
