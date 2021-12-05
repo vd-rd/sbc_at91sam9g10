@@ -558,13 +558,22 @@
       (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQP7C")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/8cb1cf6e-e426-4f4b-adab-30f01fe1b218"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP1") (unit 1) (value "DRX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/88858469-26e3-422f-aea4-83c735e27624"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP2") (unit 1) (value "DTX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/d3c5a618-c76c-4f7e-a509-73bfee0b43f9"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP3") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/a2413cd0-25d9-4172-8a54-7d2f3e114c09"
+      (reference "TP4") (unit 1) (value "DRX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/0464c190-606d-43f7-a537-51cb946d62bf"
+      (reference "TP5") (unit 1) (value "DTX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/08de4a9c-7554-45f0-81b9-cc229d39f799"
+      (reference "TP6") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/c6527beb-a145-4b41-9f85-36d104cf424c"
       (reference "U1") (unit 1) (value "AT91SAM9G10") (footprint "microchip:AT91SAM9G10")

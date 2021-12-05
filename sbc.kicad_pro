@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -120,7 +120,6 @@
       },
       "track_widths": [
         0.0,
-        0.1,
         0.127,
         0.154,
         0.16,
@@ -393,7 +392,7 @@
         "name": "Default",
         "pcb_color": "rgb(0, 0, 0)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.1,
+        "track_width": 0.154,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6.0
