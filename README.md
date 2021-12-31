@@ -1,6 +1,6 @@
 # sbc_at91sam9g10
 
-Note: The project is created using Kicad 6 nightly builds and can't be opened using latest stable version.
+
 
 ### Features
  * CPU - AT91SAM9G10 processor (ARM926EJ @ 266MHz)
@@ -12,7 +12,12 @@ Note: The project is created using Kicad 6 nightly builds and can't be opened us
  * RMII interface for Ethernet
  * standard Apollo.IoT expansion header
 
+### Tools
+
+ This project is created using KiCad 6.0.0
+
 ### Resources
+
 You can find all necesary information to build or evaluate the module here:
    - [View layout and schematic]() 
    - [View 3D board render]()
