@@ -9,7 +9,6 @@
  * microSD card slot
  * microUSB client interface
  * USB host breakout
- * RMII interface for Ethernet
  * standard Apollo.IoT expansion header
 
 ### Tools
@@ -19,6 +18,4 @@
 ### Resources
 
 You can find all necesary information to build or evaluate the module here:
-   - [View layout and schematic]() 
-   - [View 3D board render]()
    - [Fabrication files](https://github.com/vd-rd/sbc_at91sam9g10/releases)
