@@ -1,15 +1,24 @@
-# sbc_at91sam9g10
+# Microchip AT91SAM9G10 SBC
 
+![board_render](/assets/front.png)
 
 
 ### Features
- * CPU - AT91SAM9G10 processor (ARM926EJ @ 266MHz)
- * RAM - 1Gb SDRAM max ( 3V3 and 1V8 types supported)
- * NVM - AT45DB dataflash for U-boot
- * microSD card slot
- * microUSB client interface
- * USB host breakout
- * standard Apollo.IoT expansion header
+
+| Characteristic | Description |
+| --- | --- |
+| Dimensions | 60mm x 40mm |
+| Processor | AT91SAM9G10 - ARM926EJ @ 266MHz |
+| Oscillators |  18.432MHz main clock, 32.768kHz RTC |
+| RAM | SDRAM 1Gb max (2x 512Mbit modules) |
+| Storage | microSD |
+| USB | 1 microUSB Client, 2 USB host |
+| Ethernet | N/A |
+| WiFi/BT | N/A |
+| Supply | USB, 5V max |
+
+Common interfaces such as I2C, SPI, UART and GPIO are exposed on the header.
+
 
 ### Tools
 
@@ -19,3 +28,8 @@
 
 You can find all necesary information to build or evaluate the module here:
    - [Fabrication files](https://github.com/vd-rd/sbc_at91sam9g10/releases)
+
+
+Inspiration for this has been drawn from:
+* AT91SAM9G10EK 
+* AT91Bootstrap
