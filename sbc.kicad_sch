@@ -435,7 +435,7 @@
       (reference "C54") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/1c25b6c1-7e92-4ec3-94f7-9eb9221466e3"
-      (reference "D1") (unit 1) (value "LED_RGBA") (footprint "led:rgb-1204")
+      (reference "D1") (unit 1) (value "LED_grba") (footprint "led:rgb-1204")
     )
     (path "/ec1a5e36-a7b5-4b78-88c4-36130f030c5f"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")

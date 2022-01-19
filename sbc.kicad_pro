@@ -41,8 +41,8 @@
         "silk_text_italic": false,
         "silk_text_size_h": 0.6,
         "silk_text_size_v": 0.7999999999999999,
-        "silk_text_thickness": 0.1127,
-        "silk_text_upright": false,
+        "silk_text_thickness": 0.127,
+        "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
           "min_clearance": 0.25
