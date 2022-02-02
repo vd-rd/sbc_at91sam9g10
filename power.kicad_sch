@@ -2888,7 +2888,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ff8afb6a-e420-4fdd-b071-aeb52ebe0c85)
     (property "Reference" "U4" (id 0) (at 105.41 78.74 0))
-    (property "Value" "MIC2800" (id 1) (at 105.41 81.28 0))
+    (property "Value" "MIC2800-G4SYML" (id 1) (at 105.41 81.28 0))
     (property "Footprint" "microchip:QFN-16_3x3mm_P0.5mm" (id 2) (at 96.52 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )

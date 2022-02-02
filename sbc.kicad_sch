@@ -597,7 +597,7 @@
       (reference "U3") (unit 1) (value "MT48LC16M16A2P") (footprint "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/ff8afb6a-e420-4fdd-b071-aeb52ebe0c85"
-      (reference "U4") (unit 1) (value "MIC2800") (footprint "microchip:QFN-16_3x3mm_P0.5mm")
+      (reference "U4") (unit 1) (value "MIC2800-G4SYML") (footprint "microchip:QFN-16_3x3mm_P0.5mm")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/99c27e75-0833-459d-b136-c30408bbf21b"
       (reference "Y1") (unit 1) (value "18.432MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
