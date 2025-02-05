@@ -1,7 +1,7 @@
 site_name: SBC - Microchip AT91SAM9G10
 site_url: https://vd-rd.github.io/sbc_at91sam9g10
 repo_url: https://github.com/vd-rd/sbc_at91sam9g10
-repo_name: squidfunk/mkdocs-material
+repo_name: vd-rd/sbc_at91sam9g10
 theme:
   name: material
   palette:
