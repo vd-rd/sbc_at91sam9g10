@@ -37147,8 +37147,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Board rev: <BOARD_REV>"
-		(at 149.4 76.8 0)
+	(gr_text "Board rev: ${BOARD_REV}"
+		(at 146.7 76.5 0)
 		(layer "B.SilkS")
 		(uuid "3b53056b-f4e1-438c-b870-aa87a632da82")
 		(effects
@@ -37156,7 +37156,7 @@
 				(size 1 1)
 				(thickness 0.2)
 			)
-			(justify mirror)
+			(justify right mirror)
 		)
 	)
 	(gr_text "IO4"

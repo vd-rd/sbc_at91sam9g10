@@ -5,8 +5,9 @@
 	(uuid "752d4654-3f94-4774-ba5f-d4ae6d5dcb15")
 	(paper "A4")
 	(title_block
-		(title "SAM9G10 SBC")
-		(rev "0.1")
+		(title "GLASNOST M9G10")
+		(date "2025-02-13")
+		(rev "${BOARD_REV}")
 		(company "vd-rd")
 	)
 	(lib_symbols
