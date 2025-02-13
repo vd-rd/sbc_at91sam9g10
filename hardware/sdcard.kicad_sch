@@ -3251,7 +3251,6 @@
 	)
 	(label "usb-c-"
 		(at 34.29 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3262,7 +3261,6 @@
 	)
 	(label "usb-a+"
 		(at 49.53 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3273,7 +3271,6 @@
 	)
 	(label "usb-b-"
 		(at 34.29 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3284,7 +3281,6 @@
 	)
 	(label "usb-b+"
 		(at 34.29 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3295,7 +3291,6 @@
 	)
 	(label "usb-a-"
 		(at 49.53 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3306,7 +3301,6 @@
 	)
 	(label "usb-c+"
 		(at 34.29 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
