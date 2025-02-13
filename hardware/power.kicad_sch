@@ -5,8 +5,9 @@
 	(uuid "7c13db92-c7e6-4d41-975a-d19f90c91e43")
 	(paper "A4")
 	(title_block
-		(title "SAM9G10 SBC")
-		(rev "0.1")
+		(title "GLASNOST M9G10")
+		(date "2025-02-13")
+		(rev "${BOARD_REV}")
 		(company "vd-rd")
 	)
 	(lib_symbols
@@ -7580,7 +7581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CORE"
+		(property "Value" "DTX"
 			(at 275.59 26.0349 90)
 			(effects
 				(font
@@ -7589,7 +7590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 29.21 0)
 			(effects
 				(font
@@ -7646,7 +7647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IO"
+		(property "Value" "GND"
 			(at 275.59 29.8449 90)
 			(effects
 				(font
@@ -7655,7 +7656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 33.02 0)
 			(effects
 				(font
@@ -10355,7 +10356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "DRX"
 			(at 275.59 22.2249 90)
 			(effects
 				(font
@@ -10364,7 +10365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 25.4 0)
 			(effects
 				(font

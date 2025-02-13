@@ -5,8 +5,9 @@
 	(uuid "eb766f61-c39f-4ae5-bf62-5e612680ff0d")
 	(paper "A4")
 	(title_block
-		(title "SAM9G10 SBC")
-		(rev "0.1")
+		(title "GLASNOST M9G10")
+		(date "2025-02-13")
+		(rev "${BOARD_REV}")
 		(company "vd-rd")
 	)
 	(lib_symbols
@@ -8868,7 +8869,6 @@
 	)
 	(label "dq7"
 		(at 81.28 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8879,7 +8879,6 @@
 	)
 	(label "ad11"
 		(at 35.56 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8890,7 +8889,6 @@
 	)
 	(label "sdwe"
 		(at 118.11 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8901,7 +8899,6 @@
 	)
 	(label "dq0"
 		(at 248.92 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8912,7 +8909,6 @@
 	)
 	(label "nbs1"
 		(at 212.09 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8923,7 +8919,6 @@
 	)
 	(label "ras"
 		(at 33.02 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8934,7 +8929,6 @@
 	)
 	(label "dq16"
 		(at 154.94 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8945,7 +8939,6 @@
 	)
 	(label "dq9"
 		(at 81.28 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8956,7 +8949,6 @@
 	)
 	(label "dq7"
 		(at 248.92 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8967,7 +8959,6 @@
 	)
 	(label "ad6"
 		(at 212.09 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8978,7 +8969,6 @@
 	)
 	(label "dq1"
 		(at 248.92 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8989,7 +8979,6 @@
 	)
 	(label "dq22"
 		(at 154.94 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9000,7 +8989,6 @@
 	)
 	(label "ad1"
 		(at 118.11 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9011,7 +8999,6 @@
 	)
 	(label "ad6"
 		(at 118.11 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9022,7 +9009,6 @@
 	)
 	(label "ad13"
 		(at 212.09 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9033,7 +9019,6 @@
 	)
 	(label "ad2"
 		(at 212.09 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9044,7 +9029,6 @@
 	)
 	(label "ad11"
 		(at 118.11 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9055,7 +9039,6 @@
 	)
 	(label "dq0"
 		(at 81.28 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9066,7 +9049,6 @@
 	)
 	(label "dq12"
 		(at 81.28 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9077,7 +9059,6 @@
 	)
 	(label "ad0"
 		(at 212.09 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9088,7 +9069,6 @@
 	)
 	(label "ad8"
 		(at 118.11 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9099,7 +9079,6 @@
 	)
 	(label "dq11"
 		(at 81.28 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9110,7 +9089,6 @@
 	)
 	(label "dq10"
 		(at 81.28 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9121,7 +9099,6 @@
 	)
 	(label "dq31"
 		(at 154.94 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9132,7 +9109,6 @@
 	)
 	(label "sda10"
 		(at 33.02 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9143,7 +9119,6 @@
 	)
 	(label "dq24"
 		(at 154.94 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9154,7 +9129,6 @@
 	)
 	(label "ad2"
 		(at 118.11 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9165,7 +9139,6 @@
 	)
 	(label "dq10"
 		(at 248.92 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9176,7 +9149,6 @@
 	)
 	(label "dq6"
 		(at 248.92 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9187,7 +9159,6 @@
 	)
 	(label "dq18"
 		(at 154.94 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9198,7 +9169,6 @@
 	)
 	(label "ad8"
 		(at 35.56 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9209,7 +9179,6 @@
 	)
 	(label "dq23"
 		(at 154.94 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9220,7 +9189,6 @@
 	)
 	(label "sdcke"
 		(at 212.09 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9231,7 +9199,6 @@
 	)
 	(label "ad2"
 		(at 35.56 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9242,7 +9209,6 @@
 	)
 	(label "dq4"
 		(at 248.92 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9253,7 +9219,6 @@
 	)
 	(label "dq13"
 		(at 81.28 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9264,7 +9229,6 @@
 	)
 	(label "ad11"
 		(at 212.09 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9275,7 +9239,6 @@
 	)
 	(label "dq6"
 		(at 81.28 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9286,7 +9249,6 @@
 	)
 	(label "ad7"
 		(at 118.11 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9297,7 +9259,6 @@
 	)
 	(label "nbs3"
 		(at 81.28 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9308,7 +9269,6 @@
 	)
 	(label "dq19"
 		(at 154.94 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9319,7 +9279,6 @@
 	)
 	(label "dq9"
 		(at 248.92 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9330,7 +9289,6 @@
 	)
 	(label "dq2"
 		(at 248.92 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9341,7 +9299,6 @@
 	)
 	(label "ad1"
 		(at 35.56 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9352,7 +9309,6 @@
 	)
 	(label "dq30"
 		(at 154.94 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9363,7 +9319,6 @@
 	)
 	(label "dq21"
 		(at 154.94 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9374,7 +9329,6 @@
 	)
 	(label "ad13"
 		(at 35.56 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9385,7 +9339,6 @@
 	)
 	(label "ad5"
 		(at 212.09 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9396,7 +9349,6 @@
 	)
 	(label "dq4"
 		(at 81.28 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9407,7 +9359,6 @@
 	)
 	(label "dq5"
 		(at 248.92 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9418,7 +9369,6 @@
 	)
 	(label "dq20"
 		(at 154.94 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9429,7 +9379,6 @@
 	)
 	(label "dq8"
 		(at 248.92 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9440,7 +9389,6 @@
 	)
 	(label "sdcs"
 		(at 81.28 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9451,7 +9399,6 @@
 	)
 	(label "ad16"
 		(at 212.09 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9462,7 +9409,6 @@
 	)
 	(label "ras"
 		(at 118.11 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9473,7 +9419,6 @@
 	)
 	(label "dq14"
 		(at 248.92 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9484,7 +9429,6 @@
 	)
 	(label "sdcs"
 		(at 212.09 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9495,7 +9439,6 @@
 	)
 	(label "sda10"
 		(at 118.11 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9506,7 +9449,6 @@
 	)
 	(label "sdwe"
 		(at 33.02 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9517,7 +9459,6 @@
 	)
 	(label "dq3"
 		(at 81.28 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9528,7 +9469,6 @@
 	)
 	(label "dq15"
 		(at 81.28 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9539,7 +9479,6 @@
 	)
 	(label "dq8"
 		(at 81.28 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9550,7 +9489,6 @@
 	)
 	(label "dq29"
 		(at 154.94 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9561,7 +9499,6 @@
 	)
 	(label "dq11"
 		(at 248.92 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9572,7 +9509,6 @@
 	)
 	(label "dq15"
 		(at 248.92 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9583,7 +9519,6 @@
 	)
 	(label "sdcke"
 		(at 118.11 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9594,7 +9529,6 @@
 	)
 	(label "ad17"
 		(at 35.56 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9605,7 +9539,6 @@
 	)
 	(label "dq17"
 		(at 154.94 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9616,7 +9549,6 @@
 	)
 	(label "ad10"
 		(at 35.56 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9627,7 +9559,6 @@
 	)
 	(label "sdwe"
 		(at 212.09 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9638,7 +9569,6 @@
 	)
 	(label "ad10"
 		(at 118.11 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9649,7 +9579,6 @@
 	)
 	(label "sdck"
 		(at 212.09 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9660,7 +9589,6 @@
 	)
 	(label "ad14"
 		(at 118.11 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9671,7 +9599,6 @@
 	)
 	(label "dq3"
 		(at 248.92 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9682,7 +9609,6 @@
 	)
 	(label "nbs3"
 		(at 118.11 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9693,7 +9619,6 @@
 	)
 	(label "sdcke"
 		(at 33.02 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9704,7 +9629,6 @@
 	)
 	(label "dq27"
 		(at 154.94 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9715,7 +9639,6 @@
 	)
 	(label "ad14"
 		(at 212.09 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9726,7 +9649,6 @@
 	)
 	(label "ad16"
 		(at 118.11 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9737,7 +9659,6 @@
 	)
 	(label "ad3"
 		(at 118.11 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9748,7 +9669,6 @@
 	)
 	(label "dq26"
 		(at 154.94 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9759,7 +9679,6 @@
 	)
 	(label "dq14"
 		(at 81.28 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9770,7 +9689,6 @@
 	)
 	(label "ad9"
 		(at 118.11 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9781,7 +9699,6 @@
 	)
 	(label "nbs1"
 		(at 81.28 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9792,7 +9709,6 @@
 	)
 	(label "ad4"
 		(at 118.11 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9803,7 +9719,6 @@
 	)
 	(label "ad3"
 		(at 212.09 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9814,7 +9729,6 @@
 	)
 	(label "ad4"
 		(at 35.56 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9825,7 +9739,6 @@
 	)
 	(label "sdck"
 		(at 118.11 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9836,7 +9749,6 @@
 	)
 	(label "cas"
 		(at 118.11 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9847,7 +9759,6 @@
 	)
 	(label "ad0"
 		(at 35.56 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9858,7 +9769,6 @@
 	)
 	(label "cas"
 		(at 212.09 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9869,7 +9779,6 @@
 	)
 	(label "sdcs"
 		(at 118.11 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9880,7 +9789,6 @@
 	)
 	(label "ad14"
 		(at 35.56 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9891,7 +9799,6 @@
 	)
 	(label "dq25"
 		(at 154.94 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9902,7 +9809,6 @@
 	)
 	(label "ad6"
 		(at 35.56 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9913,7 +9819,6 @@
 	)
 	(label "ad5"
 		(at 118.11 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9924,7 +9829,6 @@
 	)
 	(label "dq28"
 		(at 154.94 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9935,7 +9839,6 @@
 	)
 	(label "ras"
 		(at 212.09 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9946,7 +9849,6 @@
 	)
 	(label "ad4"
 		(at 212.09 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9957,7 +9859,6 @@
 	)
 	(label "dq5"
 		(at 81.28 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9968,7 +9869,6 @@
 	)
 	(label "ad7"
 		(at 35.56 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9979,7 +9879,6 @@
 	)
 	(label "cas"
 		(at 33.02 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9990,7 +9889,6 @@
 	)
 	(label "ad17"
 		(at 212.09 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10001,7 +9899,6 @@
 	)
 	(label "ad9"
 		(at 35.56 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10012,7 +9909,6 @@
 	)
 	(label "ad16"
 		(at 35.56 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10023,7 +9919,6 @@
 	)
 	(label "ad17"
 		(at 118.11 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10034,7 +9929,6 @@
 	)
 	(label "dq12"
 		(at 248.92 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10045,7 +9939,6 @@
 	)
 	(label "ad5"
 		(at 35.56 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10056,7 +9949,6 @@
 	)
 	(label "ad10"
 		(at 212.09 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10067,7 +9959,6 @@
 	)
 	(label "dq2"
 		(at 81.28 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10078,7 +9969,6 @@
 	)
 	(label "ad12"
 		(at 35.56 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10089,7 +9979,6 @@
 	)
 	(label "ad9"
 		(at 212.09 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10100,7 +9989,6 @@
 	)
 	(label "ad7"
 		(at 212.09 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10111,7 +9999,6 @@
 	)
 	(label "ad13"
 		(at 118.11 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10122,7 +10009,6 @@
 	)
 	(label "ad8"
 		(at 212.09 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10133,7 +10019,6 @@
 	)
 	(label "ad3"
 		(at 35.56 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10144,7 +10029,6 @@
 	)
 	(label "sdck"
 		(at 33.02 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10155,7 +10039,6 @@
 	)
 	(label "dq1"
 		(at 81.28 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10166,7 +10049,6 @@
 	)
 	(label "ad15"
 		(at 35.56 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10177,7 +10059,6 @@
 	)
 	(label "sda10"
 		(at 212.09 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10188,7 +10069,6 @@
 	)
 	(label "dq13"
 		(at 248.92 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

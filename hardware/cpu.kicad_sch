@@ -5,8 +5,9 @@
 	(uuid "752d4654-3f94-4774-ba5f-d4ae6d5dcb15")
 	(paper "A4")
 	(title_block
-		(title "SAM9G10 SBC")
-		(rev "0.1")
+		(title "GLASNOST M9G10")
+		(date "2025-02-13")
+		(rev "${BOARD_REV}")
 		(company "vd-rd")
 	)
 	(lib_symbols
@@ -18331,16 +18332,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 29.21) (xy 276.86 29.21)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "bb03256c-0096-4642-96bd-d36a09bfda56")
-	)
-	(wire
-		(pts
 			(xy 106.68 124.46) (xy 111.76 124.46)
 		)
 		(stroke
@@ -18721,7 +18712,6 @@
 	)
 	(label "lse-out"
 		(at 152.4 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18732,7 +18722,6 @@
 	)
 	(label "pllrcb"
 		(at 45.72 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18743,7 +18732,6 @@
 	)
 	(label "lse-in"
 		(at 237.49 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18754,7 +18742,6 @@
 	)
 	(label "hse-out"
 		(at 237.49 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18765,7 +18752,6 @@
 	)
 	(label "dq19"
 		(at 179.07 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18776,7 +18762,6 @@
 	)
 	(label "pllrca"
 		(at 19.05 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18787,7 +18772,6 @@
 	)
 	(label "dq31"
 		(at 179.07 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18798,7 +18782,6 @@
 	)
 	(label "dq25"
 		(at 179.07 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18809,7 +18792,6 @@
 	)
 	(label "pllrcb"
 		(at 241.3 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18820,7 +18802,6 @@
 	)
 	(label "dq29"
 		(at 179.07 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18831,7 +18812,6 @@
 	)
 	(label "dq28"
 		(at 179.07 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18842,7 +18822,6 @@
 	)
 	(label "dq21"
 		(at 179.07 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18853,7 +18832,6 @@
 	)
 	(label "lse-in"
 		(at 152.4 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18864,7 +18842,6 @@
 	)
 	(label "lse-out"
 		(at 237.49 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18875,7 +18852,6 @@
 	)
 	(label "dq20"
 		(at 179.07 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18886,7 +18862,6 @@
 	)
 	(label "dq17"
 		(at 179.07 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18897,7 +18872,6 @@
 	)
 	(label "hse-out"
 		(at 152.4 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18908,7 +18882,6 @@
 	)
 	(label "dq30"
 		(at 179.07 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18919,7 +18892,6 @@
 	)
 	(label "pllrca"
 		(at 241.3 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18930,7 +18902,6 @@
 	)
 	(label "dq22"
 		(at 179.07 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18941,7 +18912,6 @@
 	)
 	(label "dq26"
 		(at 179.07 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18952,7 +18922,6 @@
 	)
 	(label "dq16"
 		(at 179.07 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18963,7 +18932,6 @@
 	)
 	(label "dq24"
 		(at 179.07 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18974,7 +18942,6 @@
 	)
 	(label "dq23"
 		(at 179.07 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18985,7 +18952,6 @@
 	)
 	(label "hse-in"
 		(at 237.49 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18996,7 +18962,6 @@
 	)
 	(label "dq27"
 		(at 179.07 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19007,7 +18972,6 @@
 	)
 	(label "hse-in"
 		(at 152.4 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19018,7 +18982,6 @@
 	)
 	(label "dq18"
 		(at 179.07 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19040,28 +19003,6 @@
 		(uuid "068638b8-ea3f-4f7b-92a5-7378b7532ed8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.6469 88.8206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-CLK"
-		(shape input)
-		(at 266.7 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08212633-8aaa-4206-8ce1-8db290883763")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.3949 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20173,7 +20114,7 @@
 	)
 	(global_label "NOR_CS"
 		(shape output)
-		(at 46.99 69.85 180)
+		(at 106.68 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20183,7 +20124,7 @@
 		)
 		(uuid "cdef0c2f-27c1-4c49-a0e6-729540750dd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5316 69.85 0)
+			(at 96.2216 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22132,72 +22073,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 276.86 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cb0be89-6b8f-4e69-8d6f-60ed57b63e11")
-		(property "Reference" "TP7"
-			(at 271.584 28.3069 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NOR-CS"
-			(at 275.59 31.1149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 276.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d355bfc3-edc3-4a59-a9bb-baf84a750194")
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "AT91SAM9G10_1")
 		(lib_id "microchip:AT91SAM9G10")
 		(at 120.65 100.33 0)
@@ -23074,7 +22949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 26.67 0)
 			(effects
 				(font
@@ -23205,7 +23080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 22.86 0)
 			(effects
 				(font
@@ -24680,7 +24555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 30.48 0)
 			(effects
 				(font

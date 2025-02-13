@@ -11,7 +11,7 @@
 | Processor | AT91SAM9G10 - ARM926EJ @ 266MHz |
 | Oscillators |  18.432MHz main clock, 32.768kHz RTC |
 | RAM | SDRAM 1Gb max (2x 512Mbit modules) |
-| Storage | microSD |
+| Storage | microSD, NOR Flash |
 | USB | 1 microUSB Client, 2 USB host |
 | Ethernet | N/A |
 | WiFi/BT | N/A |
@@ -22,7 +22,7 @@ Common interfaces such as I2C, SPI, UART and GPIO are exposed on the header.
 
 ### Tools
 
- This project is created using KiCad 6.0.0
+ This project is created using KiCad 8
 
 ### Resources
 
