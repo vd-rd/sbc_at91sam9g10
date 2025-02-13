@@ -7580,7 +7580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CORE"
+		(property "Value" "DTX"
 			(at 275.59 26.0349 90)
 			(effects
 				(font
@@ -7589,7 +7589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 29.21 0)
 			(effects
 				(font
@@ -7646,7 +7646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IO"
+		(property "Value" "GND"
 			(at 275.59 29.8449 90)
 			(effects
 				(font
@@ -7655,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 33.02 0)
 			(effects
 				(font
@@ -10355,7 +10355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "DRX"
 			(at 275.59 22.2249 90)
 			(effects
 				(font
@@ -10364,7 +10364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 25.4 0)
 			(effects
 				(font

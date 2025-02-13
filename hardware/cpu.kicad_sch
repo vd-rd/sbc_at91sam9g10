@@ -18331,16 +18331,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 29.21) (xy 276.86 29.21)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "bb03256c-0096-4642-96bd-d36a09bfda56")
-	)
-	(wire
-		(pts
 			(xy 106.68 124.46) (xy 111.76 124.46)
 		)
 		(stroke
@@ -19040,28 +19030,6 @@
 		(uuid "068638b8-ea3f-4f7b-92a5-7378b7532ed8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.6469 88.8206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-CLK"
-		(shape input)
-		(at 266.7 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08212633-8aaa-4206-8ce1-8db290883763")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.3949 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22132,72 +22100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 276.86 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cb0be89-6b8f-4e69-8d6f-60ed57b63e11")
-		(property "Reference" "TP7"
-			(at 271.584 28.3069 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NOR-CS"
-			(at 275.59 31.1149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 276.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d355bfc3-edc3-4a59-a9bb-baf84a750194")
-		)
-		(instances
-			(project "sbc"
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "AT91SAM9G10_1")
 		(lib_id "microchip:AT91SAM9G10")
 		(at 120.65 100.33 0)
@@ -23074,7 +22976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 26.67 0)
 			(effects
 				(font
@@ -23205,7 +23107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 22.86 0)
 			(effects
 				(font
@@ -24680,7 +24582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 276.86 30.48 0)
 			(effects
 				(font
