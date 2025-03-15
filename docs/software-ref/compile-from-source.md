@@ -33,9 +33,11 @@ cd AT91Bootstrap
 The project used menuconfig to select options, akin to Linux kernel and U-Boot. There are two targets that can be selected for the build:
 - glasnost_9g10_df_uboot_defconfig
 - glasnost_9g10_sd_uboot_defconfig
+
 ``` bash
 make [target]
 make
+```
 
 Binary ready to be used will be found in the binary folder.
 
