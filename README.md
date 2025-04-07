@@ -12,7 +12,7 @@
 | Oscillators |  18.432MHz main clock, 32.768kHz RTC |
 | RAM | SDRAM 1Gb max (2x 512Mbit modules) |
 | Storage | microSD, NOR Flash |
-| USB | 1 microUSB Client, 2 USB host |
+| USB | 1 microUSB Host/Client, 2 USB host |
 | Ethernet | N/A |
 | WiFi/BT | N/A |
 | Supply | USB, 5V max |
@@ -22,7 +22,7 @@ Common interfaces such as I2C, SPI, UART and GPIO are exposed on the header.
 
 ### Tools
 
- This project is created using KiCad 8
+ This project is created using KiCad 9
 
 ### Resources
 

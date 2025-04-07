@@ -4,6 +4,7 @@ repo_url: https://github.com/vd-rd/sbc_at91sam9g10
 repo_name: vd-rd/sbc_at91sam9g10
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     primary: lime
   features:
