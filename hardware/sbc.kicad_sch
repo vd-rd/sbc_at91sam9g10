@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "323e64ed-5f81-410d-9081-fb4424f9b116")
 	(paper "A4")
 	(title_block
@@ -89,6 +89,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -171,117 +172,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(polyline
-		(pts
-			(xy 162.56 82.55) (xy 162.56 114.3)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "504639cb-e201-47ed-b505-817cc29cb70c")
-	)
-	(polyline
-		(pts
-			(xy 195.58 105.664) (xy 177.8 105.664)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "59991c1a-9fe9-47fc-b6fd-4352a9a7f8f1")
-	)
-	(polyline
-		(pts
-			(xy 163.068 114.3) (xy 165.608 114.3)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "5ec8068c-32bc-441e-bba1-4e2a95c6740c")
-	)
-	(polyline
-		(pts
-			(xy 254 113.03) (xy 236.22 113.03)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "62c61371-6f3f-47cb-be68-c05cbf349075")
-	)
-	(polyline
-		(pts
-			(xy 254 80.01) (xy 236.22 80.01)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "63cf6a01-c513-4d36-aa8a-b50b7e1062f6")
-	)
-	(polyline
-		(pts
-			(xy 195.58 98.044) (xy 177.8 98.044)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "aac66c09-1d35-48bb-9cda-4dc3cf0320df")
-	)
-	(polyline
-		(pts
-			(xy 162.56 82.55) (xy 144.78 82.55)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "aeca92a4-3a95-4a6e-ac7b-1044b2c9cbfc")
-	)
-	(polyline
-		(pts
-			(xy 195.58 81.28) (xy 177.8 81.28)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "d7b1a4da-f3c9-46a2-9cd5-bfe79157ee8e")
-	)
-	(polyline
-		(pts
-			(xy 195.58 113.284) (xy 177.8 113.284)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "d896b578-d6e8-4c73-a8eb-ff0fdb5a7d99")
-	)
-	(polyline
-		(pts
-			(xy 162.56 82.55) (xy 165.608 82.55)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "e9159891-c311-4c44-a57c-502e4c567d34")
-	)
-	(polyline
-		(pts
-			(xy 163.068 106.68) (xy 165.608 106.68)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "f2581b8a-add4-4c9e-beba-a5d2a6174cc8")
 	)
 	(rectangle
 		(start 166.37 77.724)
@@ -545,6 +437,116 @@
 			(justify right bottom)
 		)
 		(uuid "fdcb334e-2164-4f1a-a0d0-bbe4e415309f")
+	)
+	(polyline
+		(pts
+			(xy 162.56 82.55) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "504639cb-e201-47ed-b505-817cc29cb70c")
+	)
+	(polyline
+		(pts
+			(xy 195.58 105.664) (xy 177.8 105.664)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "59991c1a-9fe9-47fc-b6fd-4352a9a7f8f1")
+	)
+	(polyline
+		(pts
+			(xy 163.068 114.3) (xy 165.608 114.3)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "5ec8068c-32bc-441e-bba1-4e2a95c6740c")
+	)
+	(polyline
+		(pts
+			(xy 254 113.03) (xy 236.22 113.03)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "62c61371-6f3f-47cb-be68-c05cbf349075")
+	)
+	(polyline
+		(pts
+			(xy 254 80.01) (xy 236.22 80.01)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "63cf6a01-c513-4d36-aa8a-b50b7e1062f6")
+	)
+	(polyline
+		(pts
+			(xy 195.58 98.044) (xy 177.8 98.044)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "aac66c09-1d35-48bb-9cda-4dc3cf0320df")
+	)
+	(polyline
+		(pts
+			(xy 162.56 82.55) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "aeca92a4-3a95-4a6e-ac7b-1044b2c9cbfc")
+	)
+	(polyline
+		(pts
+			(xy 195.58 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "d7b1a4da-f3c9-46a2-9cd5-bfe79157ee8e")
+	)
+	(polyline
+		(pts
+			(xy 195.58 113.284) (xy 177.8 113.284)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "d896b578-d6e8-4c73-a8eb-ff0fdb5a7d99")
+	)
+	(polyline
+		(pts
+			(xy 162.56 82.55) (xy 165.608 82.55)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "e9159891-c311-4c44-a57c-502e4c567d34")
+	)
+	(polyline
+		(pts
+			(xy 163.068 106.68) (xy 165.608 106.68)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "f2581b8a-add4-4c9e-beba-a5d2a6174cc8")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -997,6 +999,10 @@
 	(sheet
 		(at 25.4 63.5)
 		(size 92.71 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.0005)
 			(type solid)
@@ -1034,6 +1040,10 @@
 	(sheet
 		(at 25.4 76.2)
 		(size 92.71 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.0005)
 			(type solid)
@@ -1071,6 +1081,10 @@
 	(sheet
 		(at 25.4 50.8)
 		(size 92.71 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.0005)
 			(type solid)
@@ -1108,6 +1122,10 @@
 	(sheet
 		(at 25.4 25.4)
 		(size 92.71 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.0005)
 			(type solid)
@@ -1145,6 +1163,10 @@
 	(sheet
 		(at 25.4 38.1)
 		(size 92.71 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.0005)
 			(type solid)
@@ -1184,4 +1206,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
