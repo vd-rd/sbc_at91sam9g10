@@ -1,6 +1,6 @@
 # Microchip AT91SAM9G10 SBC
 
-![board_render](/assets/front.png)
+![board_render](/docs/assets/front.png)
 
 
 ### Features
