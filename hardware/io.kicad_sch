@@ -1279,7 +1279,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_GRBA"
+		(symbol "Device:LED_BAGR"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1295,7 +1295,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_GRBA"
+			(property "Value" "LED_BAGR"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1321,7 +1321,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, green/red/blue/anode"
+			(property "Description" "RGB LED, blue/anode/green/red"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1348,7 +1348,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_GRBA_0_0"
+			(symbol "LED_BAGR_0_0"
 				(text "R"
 					(at -1.905 3.81 0)
 					(effects
@@ -1374,7 +1374,7 @@
 					)
 				)
 			)
-			(symbol "LED_GRBA_0_1"
+			(symbol "LED_BAGR_0_1"
 				(polyline
 					(pts
 						(xy -1.27 6.35) (xy -1.27 3.81)
@@ -1706,7 +1706,7 @@
 					)
 				)
 			)
-			(symbol "LED_GRBA_1_1"
+			(symbol "LED_BAGR_1_1"
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 2.54)
@@ -1717,7 +1717,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1735,7 +1735,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1753,7 +1753,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1771,7 +1771,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3622,80 +3622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_GRBA")
-		(at 68.58 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c25b6c1-7e92-4ec3-94f7-9eb9221466e3")
-		(property "Reference" "D1"
-			(at 68.58 38.4514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_grba"
-			(at 68.58 41.2265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "led:rgb-1204"
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e426c4a8-35ed-411a-bef5-8f229a2305a7")
-		)
-		(pin "2"
-			(uuid "f3180338-c603-42c0-9a1c-604c49e6263f")
-		)
-		(pin "3"
-			(uuid "48f137f8-3044-4b68-a782-ef92d5cebd7b")
-		)
-		(pin "4"
-			(uuid "7b81bb77-29e1-49d5-8676-fa1aaf159c38")
-		)
-		(instances
-			(project ""
-				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 55.88 55.88 90)
 		(unit 1)
@@ -3889,6 +3815,80 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_BAGR")
+		(at 68.58 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5388e781-8835-4b5b-b6e8-375c05384551")
+		(property "Reference" "D3"
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_BAGR"
+			(at 68.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "led:LED_RGB_Optosupply_OSTB0805C1E-A-0.8T"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, blue/anode/green/red"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c885ba84-853f-4287-a001-ef5d9e83b0c4")
+		)
+		(pin "3"
+			(uuid "9a19cde5-8ce8-4faa-8abf-3bf027bc3ea9")
+		)
+		(pin "1"
+			(uuid "66aeeb59-c6a1-47d9-8b2c-91764a6b3218")
+		)
+		(pin "2"
+			(uuid "3c1bfd45-f0bc-4d10-b2fe-6898804f354d")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
+					(reference "D3")
 					(unit 1)
 				)
 			)

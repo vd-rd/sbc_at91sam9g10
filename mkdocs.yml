@@ -18,14 +18,13 @@ nav:
   - Home: index.md
   - Getting started: getting-started.md
   - Hardware: 
-    - hardware.md
-    - Build your own: hardware-ref/build-your-own.md
+    - hardware-ref/index.md
     - Introduction: hardware-ref/introduction.md
     - Schematics: hardware-ref/schematics.md
     - PCB: hardware-ref/pcb.md
     - BOM: hardware-ref/bom.md
-    - Components: hardware-ref/components.md 
+    - Build your own: hardware-ref/build-your-own.md 
   - Software: 
-    - software.md
+    - software-ref/index.md
     - Compile from source: software-ref/compile-from-source.md
     - Introduction: software-ref/introduction.md
