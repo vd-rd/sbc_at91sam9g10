@@ -1,10 +1,12 @@
 ## Getting started with your board
 
 To get started you'll need the following:
+
 * a microUSB cable and a power supply
 * a microSD card loaded with the necessary firmware
 
 You can connect additional expansion boards that can provide additional functionality, for example:
+
 * a AC-DC board so you can use the board directly from a mains line
 
 
