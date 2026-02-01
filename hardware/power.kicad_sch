@@ -5064,6 +5064,12 @@
 		(uuid "665cd4c9-9c8a-4c3b-9cb1-e64fa27ce651")
 	)
 	(junction
+		(at 152.4 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686fca42-378e-4a8e-9abe-6cd4cefaaf9f")
+	)
+	(junction
 		(at 265.43 148.59)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -5515,6 +5521,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f29433c-0f15-404c-ae7a-f20e3dccd023")
+	)
+	(wire
+		(pts
 			(xy 223.52 82.55) (xy 223.52 85.09)
 		)
 		(stroke
@@ -5615,7 +5631,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 81.28) (xy 144.78 81.28)
+			(xy 142.24 81.28) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6435,6 +6451,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 81.28) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a219d6b6-a2a3-4964-afcb-e0e651d690e0")
+	)
+	(wire
+		(pts
 			(xy 82.55 81.28) (xy 86.36 81.28)
 		)
 		(stroke
@@ -6642,6 +6668,16 @@
 			(type solid)
 		)
 		(uuid "cdce5807-debf-4ef6-9753-40b3e0d34101")
+	)
+	(wire
+		(pts
+			(xy 152.4 90.17) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf89d345-1f0d-4f18-b630-a7e686ec3ec8")
 	)
 	(wire
 		(pts
@@ -7119,7 +7155,7 @@
 	)
 	(global_label "VDD-IO"
 		(shape output)
-		(at 144.78 81.28 0)
+		(at 161.29 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7129,7 +7165,7 @@
 		)
 		(uuid "d0e42e26-580c-477b-af33-75c77d844ddc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.5198 81.2006 0)
+			(at 171.0298 81.2006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,6 +7896,76 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 152.4 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206bdfc9-9360-41ff-9130-176d6898bf96")
+		(property "Reference" "C23"
+			(at 154.94 86.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 154.94 88.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aa85b96-c0f0-49d3-aa04-69d121d62740")
+		)
+		(pin "2"
+			(uuid "da6db2a8-50ae-4e14-867f-4437b88c0cfc")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8823,6 +8929,71 @@
 			(project ""
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d42451c-287e-4a74-ab73-46500e12c901")
+		(property "Reference" "#PWR011"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3436e2ba-1cbd-4170-9e26-5ad18140fe42")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/b6230b33-e760-4c12-ae5c-51d672e495dd"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

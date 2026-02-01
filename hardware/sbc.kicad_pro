@@ -49,7 +49,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.14
         }
       },
       "diff_pair_dimensions": [
@@ -152,7 +152,7 @@
       "teardrop_options": [
         {
           "td_onpthpad": true,
-          "td_onroundshapesonly": false,
+          "td_onroundshapesonly": true,
           "td_onsmdpad": true,
           "td_ontrackend": false,
           "td_onvia": true
