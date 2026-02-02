@@ -983,6 +983,10 @@
     [
       "a4217064-b1a8-49a5-9086-5c3293a5a5a6",
       "SDRAM"
+    ],
+    [
+      "84d16d5f-a4e8-41cd-be67-2c676c58eb5b",
+      "wifi"
     ]
   ],
   "text_variables": {
