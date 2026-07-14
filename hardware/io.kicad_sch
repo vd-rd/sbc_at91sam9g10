@@ -3324,6 +3324,12 @@
 		(uuid "108f0099-6bfe-4f64-8c37-0b25f516e75d")
 	)
 	(junction
+		(at 120.65 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc977e6-595d-4466-bae6-f0b70a18e441")
+	)
+	(junction
 		(at 187.96 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3869,6 +3875,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687a7981-8c42-42e2-96ea-2b8ec1e532a1")
+	)
+	(wire
+		(pts
 			(xy 125.73 171.45) (xy 125.73 172.72)
 		)
 		(stroke
@@ -4106,6 +4122,16 @@
 			(type default)
 		)
 		(uuid "a2cd3ef7-fee9-48c5-aa9b-29abde86555d")
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a513df7c-9950-4b23-afdd-71f2e9c5a575")
 	)
 	(wire
 		(pts
@@ -4574,6 +4600,30 @@
 		(uuid "0f94a8df-958f-4225-9f5a-1afa9ae49a01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.1359 107.8706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_DET"
+		(shape output)
+		(at 113.03 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b312479-e3e7-45c1-82ec-b91a79500f74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.2621 115.4906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5473,6 +5523,30 @@
 			)
 		)
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 113.03 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe4860ab-598f-4ba4-8ac5-002735a432e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.5278 110.5694 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "USBC-D+"
 		(shape bidirectional)
 		(at 240.03 44.45 0)
@@ -5653,6 +5727,85 @@
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 120.65 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06ead5ab-ba47-4f07-a22d-3ab1e8a1616b")
+		(property "Reference" "R21"
+			(at 124.46 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15k"
+			(at 124.46 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc62027f-1de0-43d9-ab08-a31eab094177")
+		)
+		(pin "2"
+			(uuid "1183b7d5-b3ea-44e1-a352-56b8d7f59641")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7534,6 +7687,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f58ab2-55ed-4d1d-839a-32f9c8ac9550")
+		(property "Reference" "#PWR0131"
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 125.2126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f33b34d9-9c5e-46c2-916f-1cea53905beb")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 224.79 123.19 0)
 		(unit 1)
@@ -8158,6 +8389,85 @@
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 120.65 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb59f45a-2c27-4f52-8f9e-5213ba420349")
+		(property "Reference" "R22"
+			(at 124.46 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 124.46 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 120.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7f90fda-abff-44b8-9d6f-0f7f208044db")
+		)
+		(pin "2"
+			(uuid "910ebc69-6cdb-4e98-911b-ad9a8eb5cd1f")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1"
+					(reference "R22")
 					(unit 1)
 				)
 			)

@@ -52,22 +52,22 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
+          "border_hatch_pitch": 0.508,
+          "corner_radius": 0.4,
+          "corner_smoothing": 2,
+          "fill_mode": 1,
+          "hatch_gap": 0.6,
           "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
+          "hatch_smoothing_level": 2,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
-          "min_clearance": 0.14,
+          "hatch_thickness": 0.4,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -1011,7 +1011,7 @@
         "uuid": "323e64ed-5f81-410d-9081-fb4424f9b116"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R21-22,#PWR131",
     "variants": []
   },
   "sheets": [
@@ -1041,7 +1041,7 @@
     ],
     [
       "84d16d5f-a4e8-41cd-be67-2c676c58eb5b",
-      "wifi"
+      "Networking"
     ]
   ],
   "text_variables": {

@@ -208,8 +208,8 @@
 		)
 	)
 	(rectangle
-		(start 166.37 77.724)
-		(end 177.8 84.074)
+		(start 240.792 33.528)
+		(end 252.222 39.878)
 		(stroke
 			(width 0)
 			(type default)
@@ -221,17 +221,17 @@
 		(uuid "0715b0f1-b4d8-47ee-afc0-a5e560b14bb7")
 	)
 	(rectangle
-		(start 166.37 109.474)
-		(end 177.8 115.824)
+		(start 210.82 90.17)
+		(end 236.22 102.87)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "44dc110f-4f35-4e62-8467-469902d39fb7")
+		(uuid "25c465f5-8ff5-4a54-97a3-f56423724627")
 	)
 	(rectangle
 		(start 210.82 119.38)
@@ -247,8 +247,8 @@
 		(uuid "46fc6e83-6e2b-4aba-9731-a63a43371d9c")
 	)
 	(rectangle
-		(start 124.46 80.01)
-		(end 144.78 86.36)
+		(start 198.882 35.814)
+		(end 219.202 42.164)
 		(stroke
 			(width 0)
 			(type default)
@@ -273,6 +273,19 @@
 		(uuid "6bc9698d-bf67-49ec-a1b2-fe850ac99850")
 	)
 	(rectangle
+		(start 240.792 43.434)
+		(end 252.222 49.784)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(uuid "77ffd0b4-52d0-412b-bec9-ebf50da01768")
+	)
+	(rectangle
 		(start 210.82 73.66)
 		(end 236.22 86.36)
 		(stroke
@@ -284,32 +297,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "801a37e0-e126-4b38-a46b-d9ff3abaf977")
-	)
-	(rectangle
-		(start 152.4 75.184)
-		(end 177.8 119.38)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 153 0 1)
-		)
-		(uuid "ace99d19-c1ba-4f5d-83a0-59f41ee0dd1e")
-	)
-	(rectangle
-		(start 166.37 101.854)
-		(end 177.8 108.204)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 153 0 1)
-		)
-		(uuid "db11657e-873e-4786-bd0a-fcb7dcef19b0")
 	)
 	(text "NOR Flash"
 		(exclude_from_sim no)
@@ -324,31 +311,6 @@
 		)
 		(uuid "0116bc8a-36f2-4678-8728-412120db0cf5")
 	)
-	(text "LDO1"
-		(exclude_from_sim no)
-		(at 171.958 105.41 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "09189048-3e69-4a21-9218-4067f6a65a8a")
-	)
-	(text "VddIO (+3.3V)"
-		(exclude_from_sim no)
-		(at 182.88 111.76 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "148e35a5-f574-40af-8305-10413a84cebe")
-	)
 	(text "SPI"
 		(exclude_from_sim no)
 		(at 248.92 111.76 0)
@@ -362,7 +324,7 @@
 	)
 	(text "CPU\nATMEL/\nMicrochip\nAT91SAM9G10"
 		(exclude_from_sim no)
-		(at 264.922 96.52 0)
+		(at 265.43 96.52 0)
 		(effects
 			(font
 				(size 2 2)
@@ -372,9 +334,22 @@
 		)
 		(uuid "336a775e-4e73-4c56-ad8d-4d83b92e61e6")
 	)
+	(text "WiFi/Bt\nCombo"
+		(exclude_from_sim no)
+		(at 223.52 100.33 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "637cb40d-232c-49c2-ba3c-3687ee71aa49")
+	)
 	(text "USB-Power"
 		(exclude_from_sim no)
-		(at 134.62 83.566 0)
+		(at 209.042 39.37 0)
 		(effects
 			(font
 				(size 2 2)
@@ -386,7 +361,7 @@
 	)
 	(text "DCDC1"
 		(exclude_from_sim no)
-		(at 171.958 81.28 0)
+		(at 246.38 37.084 0)
 		(effects
 			(font
 				(size 2 2)
@@ -398,7 +373,7 @@
 	)
 	(text "VddSYS"
 		(exclude_from_sim no)
-		(at 182.118 80.772 0)
+		(at 256.032 37.846 0)
 		(effects
 			(font
 				(size 2 2)
@@ -409,9 +384,32 @@
 		)
 		(uuid "bc679fe9-af22-414b-957a-4309520acc52")
 	)
-	(text "VddCORE (+1.2V)"
+	(text "DCDC1"
 		(exclude_from_sim no)
-		(at 182.372 104.394 0)
+		(at 246.38 46.99 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "e6a8d97d-5fb0-4754-a54f-0752e9b1220e")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 248.92 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f18e9b16-6504-49f2-8c61-94aa767eb978")
+	)
+	(text "VddSYS"
+		(exclude_from_sim no)
+		(at 256.54 46.482 0)
 		(effects
 			(font
 				(size 2 2)
@@ -420,31 +418,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bd5a3441-44f2-4605-9d56-68a7ca873314")
-	)
-	(text "MIC2800"
-		(exclude_from_sim no)
-		(at 154.686 109.22 90)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "d8213133-5d0b-4012-91e9-9c6cf09c11e7")
-	)
-	(text "LDO2"
-		(exclude_from_sim no)
-		(at 171.958 113.03 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "e2f35f38-63ac-4744-9204-ed4042194451")
+		(uuid "f627875e-ca21-4c44-b812-ac9c0fcb5955")
 	)
 	(text " MicroSD\nConnector"
 		(exclude_from_sim no)
@@ -472,33 +446,43 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 82.55) (xy 162.56 114.3)
+			(xy 270.002 46.99) (xy 252.222 46.99)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "504639cb-e201-47ed-b505-817cc29cb70c")
+		(uuid "014b6515-632a-4226-bc5c-c4044a6f3d68")
 	)
 	(polyline
 		(pts
-			(xy 195.58 105.664) (xy 177.8 105.664)
+			(xy 254 96.52) (xy 236.22 96.52)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "59991c1a-9fe9-47fc-b6fd-4352a9a7f8f1")
+		(uuid "0da1a59d-fc60-41e9-9433-232ce23045ed")
 	)
 	(polyline
 		(pts
-			(xy 163.068 114.3) (xy 165.608 114.3)
+			(xy 236.982 47.244) (xy 240.792 47.244)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "5ec8068c-32bc-441e-bba1-4e2a95c6740c")
+		(uuid "1ce61ac9-38b4-4e23-a58a-5b2041b63c68")
+	)
+	(polyline
+		(pts
+			(xy 236.982 38.354) (xy 236.982 47.244)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "2aa574ea-20bc-41bd-8a62-d9df69581536")
 	)
 	(polyline
 		(pts
@@ -522,17 +506,7 @@
 	)
 	(polyline
 		(pts
-			(xy 195.58 98.044) (xy 177.8 98.044)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "aac66c09-1d35-48bb-9cda-4dc3cf0320df")
-	)
-	(polyline
-		(pts
-			(xy 162.56 82.55) (xy 144.78 82.55)
+			(xy 236.982 38.354) (xy 219.202 38.354)
 		)
 		(stroke
 			(width 1)
@@ -542,7 +516,7 @@
 	)
 	(polyline
 		(pts
-			(xy 195.58 81.28) (xy 177.8 81.28)
+			(xy 270.002 38.354) (xy 252.222 38.354)
 		)
 		(stroke
 			(width 1)
@@ -552,33 +526,13 @@
 	)
 	(polyline
 		(pts
-			(xy 195.58 113.284) (xy 177.8 113.284)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "d896b578-d6e8-4c73-a8eb-ff0fdb5a7d99")
-	)
-	(polyline
-		(pts
-			(xy 162.56 82.55) (xy 165.608 82.55)
+			(xy 236.982 38.354) (xy 240.792 38.354)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
 		(uuid "e9159891-c311-4c44-a57c-502e4c567d34")
-	)
-	(polyline
-		(pts
-			(xy 163.068 106.68) (xy 165.608 106.68)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "f2581b8a-add4-4c9e-beba-a5d2a6174cc8")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1128,7 +1082,7 @@
 		)
 		(uuid "3c749ce7-d646-4de6-83a2-d6b8fc5e5df1")
 		(property "Sheetname" "IO Expansions"
-			(at 25.4 72.39 0)
+			(at 26.67 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1173,7 +1127,7 @@
 		)
 		(uuid "607413c6-2bfd-476d-8323-587df958351b")
 		(property "Sheetname" "SDCard"
-			(at 25.146 85.09 0)
+			(at 26.67 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1209,7 +1163,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1218,19 +1171,19 @@
 			(color 0 0 0 0)
 		)
 		(uuid "84d16d5f-a4e8-41cd-be67-2c676c58eb5b")
-		(property "Sheetname" "wifi"
-			(at 25.4 88.1884 0)
+		(property "Sheetname" "Networking"
+			(at 26.67 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 5.9944 5.9944)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "wifi.kicad_sch"
-			(at 25.4 99.6446 0)
+			(at 92.71 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1264,7 +1217,7 @@
 		)
 		(uuid "a4217064-b1a8-49a5-9086-5c3293a5a5a6")
 		(property "Sheetname" "SDRAM"
-			(at 25.4 59.69 0)
+			(at 26.67 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1309,7 +1262,7 @@
 		)
 		(uuid "b6230b33-e760-4c12-ae5c-51d672e495dd")
 		(property "Sheetname" "Power rails"
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1354,7 +1307,7 @@
 		)
 		(uuid "f9c28ad1-2ab9-4e5d-813d-8cb6916684e8")
 		(property "Sheetname" "CPU Signals"
-			(at 25.4 46.99 0)
+			(at 26.67 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
