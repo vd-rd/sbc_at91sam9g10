@@ -1,52 +1,45 @@
-# Glasnost M9G10 - Open Hardware Linux SBC
+# Glasnost M9G10
 
-An open hardware and software Single Board Computer based on the Microchip AT91SAM9G10, designed for IoT and embedded applications with full SPI/UART/I2C expansion capabilities. This is a learning project exploring Linux board design with mainline kernel support.
+A small open-hardware Linux board built around the Microchip AT91SAM9G10 processor, for IoT and embedded projects. It boots Linux from a microSD card, has WiFi on board, and brings UART, I²C, SPI and GPIO out to a header for capes and your own circuits.
 
-![board_render](/docs/assets/front.png)
+![Glasnost M9G10, top side](docs/assets/front.png)
 
+**Status:** revision 2.0 — working hardware, documentation in progress. See [known issues](https://github.com/vd-rd/sbc_at91sam9g10/issues).
 
-### Features
+## Specifications
 
-| Characteristic | Description |
-| --- | --- |
-| Dimensions | 66mm x 42mm |
-| Processor | AT91SAM9G10 - ARM926EJ @ 266MHz |
-| Oscillators |  18.432MHz main clock, 32.768kHz RTC |
-| RAM | SDRAM 1Gb max (2x 512Mbit modules) |
-| Storage | microSD |
-| USB | 1 microUSB Host/Client, 2 USB host |
-| Ethernet | N/A |
-| WiFi/BT | WiFi module onboard |
-| Supply | USB, 5V max |
-| Interfaces | SPI, UART, I2C, GPIO exposed on headers |
-| OS Support | Linux (mainline kernel with custom device tree) |
+| | |
+|---|---|
+| Processor | Microchip AT91SAM9G10, ARM926EJ-S at 266 MHz |
+| Memory | 64 MB SDRAM (2× 256 Mbit) by default; up to 128 MB with 2× 512 Mbit chips |
+| Storage | microSD card (boot and root filesystem); 2 MB SPI DataFlash (data only, not bootable) |
+| USB | USB-C port (power in, USB device, recovery); one USB host port on a 1.27 mm header for a cape |
+| Wireless | WiFi (RTL8188CUS module, U.FL antenna connector) by default; WiFi/Bluetooth with a compatible USB module |
+| Expansion | 2×18 main header (2.54 mm): debug console, 2 more UARTs, I²C, SPI, 4 GPIO, reset, 3.3 V |
+| Power | 5 V through the USB-C port |
+| Size | 66 × 42 mm |
+| Software | Linux (mainline kernel with a board device tree), AT91Bootstrap, U-Boot |
+| Design files | KiCad 10 (`hardware/`) |
 
-Common interfaces such as I2C, SPI, UART and GPIO are exposed on the header.
+> [!NOTE]
+> The processor's boot ROM only reads standard-capacity microSD cards (SDSC, **up to 2 GB**) when it boots directly from the card.
 
-### ⚠️ Boot Note
+## Documentation
 
-> **Unlike other Glasnost boards**, this SBC does **not** include NOR Flash for a recovery environment. The AT91SAM9G10's limited peripheral availability means the board relies entirely on microSD card boot. Linux must be booted from the microSD card—there is no fallback recovery distro on internal flash.
+Full documentation — getting started, pinouts, power, boot and recovery, build your own — is in [`docs/`](docs/) and published at **https://vd-rd.github.io/sbc_at91sam9g10**.
 
+## Repository
 
-### Tools & Design
+| Path | Contents |
+|---|---|
+| `hardware/` | KiCad 10 project (schematics, PCB) |
+| `docs/` | Documentation site sources |
+| `resources/` | Datasheets and reference documents ([list](resources/REFERENCES.md)) |
 
-This project is created using **KiCad 9**
+Fabrication files are attached to [releases](https://github.com/vd-rd/sbc_at91sam9g10/releases).
 
-### Documentation & Resources
+Glasnost is a family of boards and capes — see the [Glasnost catalogue](https://vd-rd.github.io/glasnost.iot/catalogue/).
 
-Complete documentation including schematics, PCB design, and build instructions is available in the [docs](docs/) directory and published at the project website.
+## License
 
-For pre-built artifacts:
-   - [Fabrication files and releases](https://github.com/vd-rd/sbc_at91sam9g10/releases)
-
-### Status & Licensing
-
-- **Status**: Stable
-- **License**: Open Hardware (not officially certified, community design)
-- **Open Source**: All hardware designs and software are open source
-
-### References & Inspiration
-
-- [AT91SAM9G10 Datasheet](resources/Atmel-6062-ARM926EJ-S-Microprocessor-SAM9261_Datasheet.pdf)
-- [AT91SAM9G10EK Evaluation Kit](https://www.microchip.com/)
-- [AT91Bootstrap](https://github.com/linux4sam/at91bootstrap)
+Open hardware (community design, not certified).

@@ -1,51 +1,32 @@
-## Components
+# Compile from source
 
-This page describes the steps to build an image that can be used with the board, containing a basic linux distribution ready for further hacking.
+How to build each boot stage yourself. You need a Linux computer and an ARM cross-compiler (`arm-none-eabi-` for AT91Bootstrap, `arm-linux-gnueabi-` for U-Boot and Linux).
 
-There are several pieces of software required to put togheter in order to get to an usable shell. Consult the boot documentation for detailed information about the order of execution and relationship between components, but for the purpose of this documentation, the flow looks like this following a board power up:
+## AT91Bootstrap
 
+The first-stage bootloader. It runs from the processor's internal memory, sets up the clocks and SDRAM, then loads U-Boot from the microSD card.
 
-``` mermaid 
-graph LR
-A[Embedded ROM] --> B{Find media};
-B --> |SD Card| C[AT91Bootstrap];
-C --> D[U-Boot];
-D --> E[Linux Distro]
-B --> |NOR Flash| F[Recovery Distro]
-```
-
-The board is equipped with two storage mediums, a NOR Flash soldered on the board and a removable microSD card. the Flash is loaded with a recovery environment suitable for debugging issues. the SD card is loaded with the full flagged distro.
-
-
-### AT91Bootstrap
-
-This is the second stage loader that is executed by the embedded ROM, after it is found in one of the storage mediums. the loader is executed in the internal SRAM and prepares DRAM, clocks and other peripherals for U-Boot execution. It loads U-Boot and hands over execution. 
-
-For the M9G10 board, a forked AT91Bootstrap is used, where modifications where added to match the hardware configuration. 
-
-In order to compile it first the repo must be cloned and a working arm-none-eabi toolchain must be present.
-``` bash
-export CROSS_COMPILE=/path/to/arm-none-eabi-
-git clone vd-rd/at91bootstrap3
-cd AT91Bootstrap
-```
-
-The project used menuconfig to select options, akin to Linux kernel and U-Boot. There are two targets that can be selected for the build:
-- glasnost_9g10_df_uboot_defconfig
-- glasnost_9g10_sd_uboot_defconfig
-
-``` bash
-make [target]
+```sh
+git clone https://github.com/printarescu-labs/vnd_microchip_at91bootstrap3
+cd vnd_microchip_at91bootstrap3
+export CROSS_COMPILE=arm-none-eabi-
+make glasnost_9g10_sd_uboot_defconfig
 make
 ```
 
-Binary ready to be used will be found in the binary folder.
+Copy the resulting binary from `binaries/` to the root of a FAT-formatted microSD card as **`boot.bin`**. Remember the card must be 2 GB or smaller ([why](../hardware-ref/boot.md)).
 
+!!! note
+    The board has no bootable flash, so only the microSD (`sd`) configuration applies.
 
-### U-Boot
-This is the 3rd level bootloader, loaded in the last MB of DRAM that further enables board peripherals, loads device tree and overlays if present and starts the kernel. 
+## U-Boot
 
+Loads the Linux kernel and device tree. Build instructions: to be written.
 
-### Kernel
+## Linux kernel
 
-### RootFS
+Mainline kernel with the board's device tree. Build instructions: to be written.
+
+## Root filesystem
+
+To be written. The [glasnost-distro-packer](https://github.com/printarescu-labs/glasnost-distro-packer) builds complete images.
