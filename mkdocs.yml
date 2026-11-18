@@ -1,4 +1,4 @@
-site_name: SBC - Microchip AT91SAM9G10
+site_name: Glasnost M9G10
 site_url: https://vd-rd.github.io/sbc_at91sam9g10
 repo_url: https://github.com/vd-rd/sbc_at91sam9g10
 repo_name: vd-rd/sbc_at91sam9g10
@@ -11,20 +11,37 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.indexes
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
 plugins: 
   - search
+  - blog:
+      blog_dir: journal
+      categories_allowed:
+        - review
+        - bring-up
+        - fab
+        - tooling
+        - software
 
 nav:
   - Home: index.md
   - Getting started: getting-started.md
-  - Hardware: 
+  - Hardware:
     - hardware-ref/index.md
-    - Introduction: hardware-ref/introduction.md
+    - Connectors & pinout: hardware-ref/connectors.md
+    - Power: hardware-ref/power.md
+    - Boot & recovery: hardware-ref/boot.md
     - Schematics: hardware-ref/schematics.md
     - PCB: hardware-ref/pcb.md
     - BOM: hardware-ref/bom.md
-    - Build your own: hardware-ref/build-your-own.md 
-  - Software: 
+    - Build your own: hardware-ref/build-your-own.md
+    - Known issues: hardware-ref/known-issues.md
+  - Software:
     - software-ref/index.md
     - Compile from source: software-ref/compile-from-source.md
-    - Introduction: software-ref/introduction.md
+  - Journal:
+    - journal/index.md
+  - Glossary: glossary.md
