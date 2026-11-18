@@ -1824,7 +1824,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "27"
 			(at 113.03 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1984,7 +1984,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "27"
 			(at 113.03 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -185,6 +185,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -196,6 +197,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -207,6 +209,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -522,6 +525,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -605,8 +609,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "sdram",
@@ -1011,7 +1015,7 @@
         "uuid": "323e64ed-5f81-410d-9081-fb4424f9b116"
       }
     ],
-    "used_designators": "R21-22,#PWR131",
+    "used_designators": "#PWR119,#PWR131,R21-23,R32-34,RN1",
     "variants": []
   },
   "sheets": [
@@ -1028,6 +1032,10 @@
       "CPU Signals"
     ],
     [
+      "84d16d5f-a4e8-41cd-be67-2c676c58eb5b",
+      "Networking"
+    ],
+    [
       "3c749ce7-d646-4de6-83a2-d6b8fc5e5df1",
       "IO Expansions"
     ],
@@ -1038,10 +1046,6 @@
     [
       "a4217064-b1a8-49a5-9086-5c3293a5a5a6",
       "SDRAM"
-    ],
-    [
-      "84d16d5f-a4e8-41cd-be67-2c676c58eb5b",
-      "Networking"
     ]
   ],
   "text_variables": {

@@ -167,6 +167,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_RAM:MT48LC16M16A2P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6649,6 +6792,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 140.97) (xy 41.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1401ace2-d3b5-47d1-bd94-09386a062df9")
+	)
+	(wire
+		(pts
 			(xy 30.48 128.27) (xy 41.91 128.27)
 		)
 		(stroke
@@ -7469,16 +7622,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 140.97) (xy 41.91 140.97)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "6f94b47e-5c35-4e51-a844-3b9441649cdf")
-	)
-	(wire
-		(pts
 			(xy 246.38 83.82) (xy 256.54 83.82)
 		)
 		(stroke
@@ -7496,6 +7639,16 @@
 			(type solid)
 		)
 		(uuid "78f1fc2e-cd84-4376-a806-e8b0417722fb")
+	)
+	(wire
+		(pts
+			(xy 25.4 140.97) (xy 34.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "79c1a098-49dc-4397-a8da-428fcffe5d7e")
 	)
 	(bus
 		(pts
@@ -7516,16 +7669,6 @@
 			(type solid)
 		)
 		(uuid "7c243022-7015-4e90-8134-2a0971a3a895")
-	)
-	(wire
-		(pts
-			(xy 116.84 121.92) (xy 127 121.92)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7f270ed9-a0df-4746-90ae-d89c320bf32d")
 	)
 	(wire
 		(pts
@@ -7676,6 +7819,16 @@
 			(type solid)
 		)
 		(uuid "957c8fd0-466d-44b6-80fb-7cded4523cfb")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.92) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9605c540-83bc-4b29-adef-64de7eb2d048")
 	)
 	(wire
 		(pts
@@ -10108,7 +10261,7 @@
 		(uuid "fbb945ac-bfe2-46e8-93f7-e015d9af622b")
 	)
 	(label "sdck"
-		(at 33.02 140.97 0)
+		(at 25.4 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10610,6 +10763,85 @@
 			(project "sbc"
 				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/a4217064-b1a8-49a5-9086-5c3293a5a5a6"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 36.83 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2473e49c-713c-491d-a5ad-07d8f5cf2a47")
+		(property "Reference" "R34"
+			(at 33.02 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 40.64 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 36.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34a592c7-e085-4c6f-b701-9816e933c6eb")
+		)
+		(pin "2"
+			(uuid "718b843a-7545-4576-93f5-83962dcc9349")
+		)
+		(instances
+			(project "sbc"
+				(path "/323e64ed-5f81-410d-9081-fb4424f9b116/a4217064-b1a8-49a5-9086-5c3293a5a5a6"
+					(reference "R34")
 					(unit 1)
 				)
 			)

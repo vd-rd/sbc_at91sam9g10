@@ -6088,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "27"
 			(at 182.88 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,7 +7195,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "27"
 			(at 182.88 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8651,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "27"
 			(at 218.44 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,7 +9151,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "27"
 			(at 218.44 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
